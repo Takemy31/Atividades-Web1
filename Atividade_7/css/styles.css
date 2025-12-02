@@ -1,0 +1,26 @@
+
+
+html,body{height:100%}
+body{
+  margin:0;
+  font-family:var(--ff);
+  background-color:#b8dbff;
+  padding:16px 10px;
+}
+
+/* container central */
+header{
+  max-width:var(--maxw);
+  margin:0 auto 20px auto;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border-radius:var(--radius);
+  padding:22px;
+
+}
+
+header h1{
+  margin:0 0 10px 0;
+  font-size:1.6rem;
+  letter-spacing:0.2px;
+}
+
