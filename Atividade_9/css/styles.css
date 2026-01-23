@@ -1,0 +1,43 @@
+
+
+html,body{height:100%}
+body{
+  text-align: center;
+  margin:0;
+  font-family:var(--ff);
+  background-color:#b8dbff;
+  padding:16px 10px;
+}
+
+header{
+  text-align: center;
+  max-width:var(--maxw);
+  margin:0 auto 20px auto;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border-radius:var(--radius);
+  padding:22px;
+
+}
+
+header h1{
+  text-align: center;
+  margin:0 0 10px 0;
+  font-size:1.6rem;
+  letter-spacing:0.2px;
+}
+
+table {
+  margin: 0 auto;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #494848;
+}
+
+th {
+  background-color: #f2f2f2;
+}
